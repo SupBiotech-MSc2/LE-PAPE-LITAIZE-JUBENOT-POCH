@@ -22,4 +22,8 @@ screening.
 
 ## Team Notes
 <!-- add your own line below, one per teammate -->
-Victor : This is my line
+<<<<<<< HEAD
+=======
+This is my line.
+
+>>>>>>> 7789a175ba366894b3b8e6f19bba99dcf3823a4b
