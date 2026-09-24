@@ -23,3 +23,4 @@ screening.
 ## Team Notes
 <!-- add your own line below, one per teammate -->
 
+- Damien: Check annealing temperature for sgRNA primers.
