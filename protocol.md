@@ -23,6 +23,7 @@ screening.
 
 ## Team Notes
 <!-- add your own line below, one per teammate -->
-This is my line.
+-Korantin : This is my line.
 -Dylan : this is my line
 -Victor : this is my line
+- Damien: Check annealing temperature for sgRNA primers.
