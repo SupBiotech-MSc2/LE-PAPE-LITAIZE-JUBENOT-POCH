@@ -20,10 +20,9 @@ screening.
 4. Recover cells in antibiotic-free media for 48h.
 5. Validate editing efficiency by amplicon sequencing.
 
+
 ## Team Notes
 <!-- add your own line below, one per teammate -->
-<<<<<<< HEAD
-=======
 This is my line.
-
->>>>>>> 7789a175ba366894b3b8e6f19bba99dcf3823a4b
+-Dylan : this is my line
+-Victor : this is my line
