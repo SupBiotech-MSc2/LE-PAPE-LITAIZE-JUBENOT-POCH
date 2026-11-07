@@ -26,3 +26,4 @@ screening.
 -Korantin : This is my line.
 -Victor : this is my line
 - Damien: Check annealing temperature for sgRNA primers.
+- Dylan: Add a non-targeting sgRNA control in step 3.
