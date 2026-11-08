@@ -1,0 +1,310 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-damien.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-damien.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+git restore protocol.md
+[main 82d0d23] test: throwaway commit
+ 1 file changed, 1 insertion(+)
+82d0d23 test: throwaway commit
+b4af24a Revert "test: add throwaway note from Damien"
+d6f4d17 test: add throwaway note from Damien
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-damien.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+b4af24a Revert "test: add throwaway note from Damien"
+d6f4d17 test: add throwaway note from Damien
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-damien.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+git reset HEAD~1
+git restore protocol.md
+commit b4af24a4fc94f44e5df87da3b51c6bf9c91142d9
+Author: damienp95 <dampoch@gmail.com>
+Date:   Sun Nov 8 12:50:27 2026 +0100
+
+    Revert "test: add throwaway note from Damien"
+    
+    This reverts commit d6f4d1796de4b78c6d8e6fab30d337be53f37ed0.
+
+commit d6f4d1796de4b78c6d8e6fab30d337be53f37ed0
+Author: damienp95 <dampoch@gmail.com>
+Date:   Sun Nov 8 12:32:07 2026 +0100
+
+    test: add throwaway note from Damien
+
+commit 7a4904694452f91196fb4ccf567ca4077bb3c9e3
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sun Nov 8 12:17:14 2026 +0100
+
+    feat: re-add team note from victor
+
+commit eb3b38e3a1f85fe1c65cf13d7c9727bb2c2ce248
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sun Nov 8 12:12:40 2026 +0100
+
+    Revert "   feat: add team note from Victor"
+    
+    This reverts commit 7b74f191fbeeed6b3d3e0a5f86175396f2493e8d.
+
+commit 4e67e9dac5d0b578f69fb8c99cb97401f4c81441
+Author: Dylan430122 <dylanjubenot@outlook.fr>
+Date:   Sat Nov 7 18:58:55 2026 +0100
+
+    feat: re-add team note from dylan
+
+commit d0d80240dcfa0c262ff6549de8ec3cbbb4ca172b
+Author: Dylan430122 <dylanjubenot@outlook.fr>
+Date:   Sat Nov 7 18:55:53 2026 +0100
+
+    Revert "feat: add team note from dylan"
+    
+    This reverts commit c2016ce9bd30551e4eb7cf17b611fe8dc59c4d27.
+
+commit b5a5fe7c4c421f4c73eb3317fbeac952946a8df5
+Author: damienp95 <dampocg@gmail.com>
+Date:   Sat Oct 3 11:28:54 2026 +0200
+
+    feat: add team note from poch
+
+commit 6a2a5c570b0b7a27b9159c1234a67f719ba5423d
+Merge: 9d92772 4b65f02
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sat Oct 3 11:22:59 2026 +0200
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+
+commit 9d9277265a75d8ec51ac9554033032671a1e5b55
+Merge: 7b74f19 c2016ce
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sat Oct 3 11:18:25 2026 +0200
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+
+commit 4b65f02a01b6ae4b9b9d136a2cbc2725fef2e638
+Merge: 0765df0 c2016ce
+Author: damienp95 <dampocg@gmail.com>
+Date:   Sat Oct 3 11:13:26 2026 +0200
+
+    merge: resolve team notes conflict
+
+commit 0765df0af6eb929b3ab8c50b728d50b872137060
+Author: damienp95 <dampocg@gmail.com>
+Date:   Sat Oct 3 11:02:10 2026 +0200
+
+    merge: resolve team notes in protocol.md
+
+commit c2016ce9bd30551e4eb7cf17b611fe8dc59c4d27
+Author: Dylan430122 <dylanjubenot@outlook.fr>
+Date:   Sat Oct 3 10:38:34 2026 +0200
+
+    feat: add team note from dylan
+
+commit 7b74f191fbeeed6b3d3e0a5f86175396f2493e8d
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Thu Sep 24 12:38:17 2026 +0200
+
+       feat: add team note from Victor
+
+commit b850803c6cbf06cbce57ce408dbb77e240fb9241
+Author: damienp95 <dampocg@gmail.com>
+Date:   Thu Sep 24 12:27:16 2026 +0200
+
+    feat: add team note from Damien
+
+commit 80689037b03651a42cd8887cb96df7f60221b526
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Thu Sep 24 12:25:55 2026 +0200
+
+    feat: add team note from Victor
+
+commit 7789a175ba366894b3b8e6f19bba99dcf3823a4b
+Author: Korantin LE PAPE <korantinlp@gmail.com>
+Date:   Thu Sep 24 12:15:22 2026 +0200
+
+    feat : add team note from lepape
+
+commit 3a74beaa7e8186abcb8a9193a1b589846da7d566
+Author: korantinlp-byte <korantinlp@gmail.com>
+Date:   Thu Sep 24 11:45:06 2026 +0200
+
+    Initial commit
+b4af24a Revert "test: add throwaway note from Damien"
+d6f4d17 test: add throwaway note from Damien
+7a49046 feat: re-add team note from victor
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+commit b850803c6cbf06cbce57ce408dbb77e240fb9241
+Author: damienp95 <dampocg@gmail.com>
+Date:   Thu Sep 24 12:27:16 2026 +0200
+
+    feat: add team note from Damien
+
+diff --git a/protocol.md b/protocol.md
+index f083b29..9cec575 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -23,3 +23,4 @@ screening.
+ ## Team Notes
+ <!-- add your own line below, one per teammate -->
+ 
++- Damien: Check annealing temperature for sgRNA primers.
+\ No newline at end of file
+diff --git a/protocol.md b/protocol.md
+index 385640c..2d7500c 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -27,3 +27,4 @@ screening.
+ - Victor : This is my line
+ - Damien: Check annealing temperature for sgRNA primers.
+ - Dylan: Add a non-targeting sgRNA control in step 3.
++test diff
+diff --git a/protocol.md b/protocol.md
+index 385640c..2d7500c 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -27,3 +27,4 @@ screening.
+ - Victor : This is my line
+ - Damien: Check annealing temperature for sgRNA primers.
+ - Dylan: Add a non-targeting sgRNA control in step 3.
++test diff
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-damien.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+* feature/damien-idea
+  main
+On branch feature/damien-idea
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-damien.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[feature/damien-idea 4b93d15] feat: add positive control reagent
+ 1 file changed, 1 insertion(+)
+Your branch is up to date with 'origin/main'.
+* feature/damien-idea
+  main
+[feature/damien-idea baeea27] docs: add detail to protocol
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+b4af24a Revert "test: add throwaway note from Damien"
+d6f4d17 test: add throwaway note from Damien
+7a49046 feat: re-add team note from victor
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+baeea27 docs: add detail to protocol
+4b93d15 feat: add positive control reagent
+b4af24a Revert "test: add throwaway note from Damien"
+d6f4d17 test: add throwaway note from Damien
+7a49046 feat: re-add team note from victor
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+Current branch feature/damien-idea is up to date.
+* baeea27 docs: add detail to protocol
+* 4b93d15 feat: add positive control reagent
+* b4af24a Revert "test: add throwaway note from Damien"
+* d6f4d17 test: add throwaway note from Damien
+* 7a49046 feat: re-add team note from victor
+* eb3b38e Revert "   feat: add team note from Victor"
+* 4e67e9d feat: re-add team note from dylan
+* d0d8024 Revert "feat: add team note from dylan"
+* b5a5fe7 feat: add team note from poch
+*   6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\  
+| *   4b65f02 merge: resolve team notes conflict
+| |\  
+| * | 0765df0 merge: resolve team notes in protocol.md
+| * | b850803 feat: add team note from Damien
+* | |   9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\ \ \  
+| | |/  
+| |/|   
+| * | c2016ce feat: add team note from dylan
+| * | 7789a17 feat : add team note from lepape
+| |/  
+* | 7b74f19    feat: add team note from Victor
+* | 8068903 feat: add team note from Victor
+|/  
+* 3a74bea Initial commit
+Your branch is up to date with 'origin/main'.
+Already up to date.
+Updating b4af24a..baeea27
+Fast-forward
+ protocol.md | 1 +
+ 1 file changed, 1 insertion(+)
