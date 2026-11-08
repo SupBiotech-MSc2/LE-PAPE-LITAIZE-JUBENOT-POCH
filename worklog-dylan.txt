@@ -500,3 +500,91 @@ Untracked files:
 	worklog-dylan.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
+===== Command history =====
+    3  git log --oneline | tee -a worklog-dylan.txt~
+    6  git log --oneline | tee -a worklog-dylan.txt
+   11  git log --oneline | tee -a worklog-dylan.txt
+   13  git status | tee -a worklog-dylan.txt
+   14  git add protocol.md
+   15  git status | tee -a worklog-dylan.txt
+   16  git commit -m "feat: add team note from dylan" | tee -a worklog-dylan.txt
+   17  git push origin main | tee -a worklog-dylan.txt
+   18  git push origin main 2>&1 | tee -a worklog-dylan.txt
+   19  git pull origin main
+   20  git pull origin main
+   22  git status
+   23  git restore protocol.md
+   24  git status
+   28  git status | tee -a worklog-dylan.txt
+   29  git restore protocol.md
+   30  git status | tee -a worklog-dylan.txt
+   31  git status
+   35  git add protocol.md
+   36  git commit -m "test: throwaway commit" | tee -a worklog-dylan.txt
+   37  git log --oneline | tee -a worklog-dylan.txt
+   38  git reset HEAD~1 | tee -a worklog-dylan.txt
+   39  git status | tee -a worklog-dylan.txt
+   40  git restore protocol.md
+   41  git pull origin main 2>&1 | tee -a worklog-dylan.txt
+   44  git pull origin main 2>&1 | tee -a worklog-dylan.txt
+   45  git revert c2016ce --no-edit 2>&1 | tee -a worklog-dylan.txt
+   48  git add protocol.md
+   49  git revert --continue --no-edit 2>&1 | tee -a worklog-dylan.txt
+   50  git push origin main 2>&1 | tee -a worklog-dylan.txt
+   51  git log --oneline | tee -a worklog-dylan.txt
+   53  git add protocol.md
+   54  git commit -m "feat: re-add team note from dylan" | tee -a worklog-dylan.txt
+   55  git status
+   56  git log --oneline -5
+   57  git pull origin main 2>&1 | tee -a worklog-dylan.txt
+   58  git push origin main 2>&1 | tee -a worklog-dylan.txt
+   59  git log | tee -a worklog-dylan.txt
+   60  git log --oneline | tee -a worklog-dylan.txt
+   61  git show d0d8024 | tee -a worklog-dylan.txt
+   62  git log | tee -a worklog-dylan.txt
+   64  git checkout -b feature/dylan-idea 2>&1 | tee -a worklog-dylan.txt
+   65  git branch | tee -a worklog-dylan.txt
+   67  git add protocol.md
+   68  git commit -m "feat: add non-targeting control sgRNA to reagents" | tee -a worklog-dylan.txt
+   69  git push origin feature/dylan-idea 2>&1 | tee -a worklog-dylan.txt
+   70  git switch main 2>&1 | tee -a worklog-dylan.txt
+   71  git status | tee -a worklog-dylan.txt
+   73  git switch feature/dylan-idea 2>&1 | tee -a worklog-dylan.txt
+   75  git add protocol.md
+   76  git commit -m "docs: extend recovery time to 48-72h" | tee -a worklog-dylan.txt
+   77  git log --oneline main | tee -a worklog-dylan.txt
+   78  git log --oneline | tee -a worklog-dylan.txt
+   79  git rebase main 2>&1 | tee -a worklog-dylan.txt
+   80  git log --oneline --graph | tee -a worklog-dylan.txt
+   84  git switch main 2>&1 | tee -a worklog-dylan.txt
+   85  git fetch origin 2>&1 | tee -a worklog-dylan.txt
+   86  git show origin/main:protocol.md | head -3
+   87  git log --oneline main..origin/main
+   88  git log origin/main --author=Dylan430122 --oneline
+   89  git log origin/feature/dylan-idea --author=Dylan430122 --oneline
+   92  git show feature/dylan-idea:protocol.md
+   93  git push origin main 2>&1 | tee -a worklog-dylan.txt
+   94  git fetch origin 2>&1 | tee -a worklog-dylan.txt
+   95  git show origin/main:protocol.md | head -3
+   96  git pull origin main 2>&1 | tee -a worklog-dylan.txt
+   97  git push origin main 2>&1 | tee -a worklog-dylan.txt
+   98  git push origin feature/dylan-idea 2>&1 | tee -a worklog-dylan.txt
+   99  git pull origin main 2>&1 | tee -a worklog-dylan.txt
+  101  git log --oneline --graph -8 | tee -a worklog-dylan.txt
+  103  git merge feature/dylan-idea --no-edit 2>&1 | tee -a worklog-dylan.txt
+  106  git add protocol.md
+  107  git commit --no-edit 2>&1 | tee -a worklog-dylan.txt
+  108  git push origin main 2>&1 | tee -a worklog-dylan.txt
+  109  git pull --no-edit origin main 2>&1 | tee -a worklog-dylan.txt
+  110  git push origin main 2>&1 | tee -a worklog-dylan.txt
+  111  git pull --no-edit origin main 2>&1 | tee -a worklog-dylan.txt
+  112  git push origin main 2>&1 | tee -a worklog-dylan.txt
+  113  git log --oneline --graph --all -15 | tee -a worklog-dylan.txt
+  114  git status | tee -a worklog-dylan.txt
+  116  git add worklog-dylan.txt
+  117  git commit -m "docs: add worklog for dylan"
+  118  git pull --no-edit origin main
+  119  git push origin main
+  120   history | grep git >> worklog-name.txt 
+  121  git push origin main
+  123  history | grep git >> worklog-dylan.txt
