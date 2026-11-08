@@ -14,12 +14,13 @@ screening. Note: all steps are performed under sterile conditions.
 - Electroporation buffer
 - HEK293 cells, passage < 20
 - Positive control sgRNA.
+- Non-targeting control sgRNA
 
 ## Steps
 1. Design and order sgRNA targeting exon 2 of the gene of interest.
 2. Complex Cas9 protein with sgRNA at a 1:1.2 molar ratio, incubate 10 min RT.
 3. Electroporate RNP complex into 2x10^5 cells per reaction.
-4. Recover cells in antibiotic-free media for 48h.
+4. Recover cells in antibiotic-free media for 48-72h.
 5. Validate editing efficiency by amplicon sequencing.
 
 
