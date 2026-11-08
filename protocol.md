@@ -9,6 +9,7 @@ screening.
 
 ## Reagents
 - Cas9 protein (NLS-tagged)
+- Nuclease-free water
 - Synthetic sgRNA (target-specific)
 - Electroporation buffer
 - HEK293 cells, passage < 20
