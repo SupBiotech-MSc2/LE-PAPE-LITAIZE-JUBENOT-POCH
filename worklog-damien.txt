@@ -308,3 +308,59 @@ Updating b4af24a..baeea27
 Fast-forward
  protocol.md | 1 +
  1 file changed, 1 insertion(+)
+*   135ce79 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\  
+* | c636e71 add worklog of korantin
+| | * e4c0852 docs: add worklog damien
+| |/  
+| * 62a7b1d docs: update worklog victor
+| * 961fc88 docs: add worklog victor
+| * d60f7f5 Merge branch 'feature/victor-idea'
+|/| 
+| * 328a66d docs: add sterility note to overview
+| * 5447fbf feat: add nuclease-free water to reagents
+* |   6680c9a Merge branch 'feature/status-review'
+|\ \  
+| * | 66bb819 chore: mark status as under review
+| |/  
+* |   4518e52 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\ \  
+| * | baeea27 docs: add detail to protocol
+| * | 4b93d15 feat: add positive control reagent
+* | | 95f39fa chore : bump status to draft v2
+* | | 3a2e06b chore : bump status to draft v2
+* | | 461ce63 test for merge vs rebase
+* | | 5031b41 add my worklog
+* | | 831a069 add semantic message for my branch
+|/ /  
+* | b4af24a Revert "test: add throwaway note from Damien"
+* | d6f4d17 test: add throwaway note from Damien
+|/  
+* 7a49046 feat: re-add team note from victor
+* eb3b38e Revert "   feat: add team note from Victor"
+| * 0eecd60 docs: extend recovery time to 48-72h
+| * b4d2e5d feat: add non-targeting control sgRNA to reagents
+|/  
+* 4e67e9d feat: re-add team note from dylan
+* d0d8024 Revert "feat: add team note from dylan"
+* b5a5fe7 feat: add team note from poch
+*   6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\  
+| *   4b65f02 merge: resolve team notes conflict
+| |\  
+| * | 0765df0 merge: resolve team notes in protocol.md
+| * | b850803 feat: add team note from Damien
+* | |   9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\ \ \  
+| | |/  
+| |/|   
+| * | c2016ce feat: add team note from dylan
+| * | 7789a17 feat : add team note from lepape
+| |/  
+* | 7b74f19    feat: add team note from Victor
+* | 8068903 feat: add team note from Victor
+|/  
+* 3a74bea Initial commit
+Merge made by the 'ort' strategy.
+ worklog-korantin.txt | 74 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 74 insertions(+)
