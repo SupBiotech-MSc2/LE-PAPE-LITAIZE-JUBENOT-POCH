@@ -481,3 +481,138 @@ Merge made by the 'ort' strategy.
   896  history | grep git
   898  echo "# Liste des commandes git lancees (history)" >> worklog-damien.txt
   899  history | grep git >> worklog-damien.txt
+
+# Liste des commandes git lancees (history)
+  763  git log --oneline
+  764  cd C:\Users\dampo\git-course\LE-PAPE-LITAIZE-JUBENOT-POCH
+  765  cd /mnt/c/Users/dampo/git-course/LE-PAPE-LITAIZE-JUBENOT-POCH
+  766  git log --oneline
+  767  git remote -v
+  768  git status
+  769  git config --global user.name "Damien"
+  770  git config --global user.email "votre-email@exemple.com"
+  771  git status
+  772  git config user.name
+  773  git config --global user.email "votre-email@exemple.com"
+  774  git config --global user.email "poch.damien.com"
+  775  git config --global user.email "votre-.com"git config user.email
+  776  git config user.email
+  777  git config --global user.email "poch.damien@gmail.com"
+  778  git config user.email
+  779  git revert b850803
+  780  git status
+  781  git log --oneline
+  782  git revert b850803
+  784  git log --oneline -3
+  785  git diff --stat
+  786  git diff protocol.md | head -30
+  787  git diff --ignore-space-at-eol --stat
+  788  git restore README.md instructions.md protocol.md
+  789  git status
+  790  git config core.autocrlf input
+  791  git config core.filemode false
+  792  git revert b850803
+  793  git show b850803
+  794  git blame -L 30,30 protocol.md
+  795  git config --global user.name "damienp95"
+  796  git config --global user.email "dampoch@gmail.com"
+  797  git pull origin main
+  799  git add protocol.md
+  800  git commit -m "test: add throwaway note from Damien"
+  801  git push origin main
+  802  git log --oneline -3
+  803  git revert d6f4d17
+  804  git push origin main
+  805  git config --global credential.helper store
+  806  git log --oneline -4
+  810  git status | tee -a worklog-damien.txt
+  811  git restore protocol.md
+  812  git status | tee -a worklog-damien.txt
+  813  echo "git restore protocol.md" >> worklog-damien.txt
+  815  git add protocol.md
+  816  git commit -m "test: throwaway commit" | tee -a worklog-damien.txt
+  817  git log --oneline -3 | tee -a worklog-damien.txt
+  818  git reset HEAD~1
+  819  git status | tee -a worklog-damien.txt
+  820  git log --oneline -2 | tee -a worklog-damien.txt
+  821  git restore protocol.md
+  822  git status | tee -a worklog-damien.txt
+  823  echo "git reset HEAD~1" >> worklog-damien.txt
+  824  echo "git restore protocol.md" >> worklog-damien.txt
+  825  git log | tee -a worklog-damien.txt
+  826  git log --oneline | tee -a worklog-damien.txt
+  827  git show b850803 | tee -a worklog-damien.txt
+  829  git diff | tee -a worklog-damien.txt
+  830  git add protocol.md
+  831  git diff --staged | tee -a worklog-damien.txt
+  832  git restore --staged protocol.md
+  833  git restore protocol.md
+  834  git status | tee -a worklog-damien.txt
+  835  git config --global user.email "dampoch@gmail.com"
+  836  git config user.email
+  837  git checkout -b feature/damien-idea | tee -a worklog-damien.txt
+  838  git branch | tee -a worklog-damien.txt
+  840  git add protocol.md
+  842  git diff protocol.md
+  844  git diff protocol.md
+  845  git branch
+  846  git log --oneline -3
+  847  git checkout -b feature/damien-idea | tee -a worklog-damien.txt
+  848  git add -p protocol.md
+  849  git branch
+  850  git diff --staged
+  851  git commit -m "fix: remove stray word in Damien team note" | tee -a worklog-damien.txt
+  852  git add protocol.md
+  853  git commit -m "feat: add positive control reagent" | tee -a worklog-damien.txt
+  854  git push origin feature/damien-idea | tee -a worklog-damien.txt
+  855  git switch main | tee -a worklog-damien.txt
+  857  git switch feature/damien-idea | tee -a worklog-damien.txt
+  858  git branch | tee -a worklog-damien.txt
+  860  git add protocol.md
+  861  git commit -m "docs: add detail to protocol" | tee -a worklog-damien.txt
+  862  git log --oneline main | tee -a worklog-damien.txt
+  863  git log --oneline | tee -a worklog-damien.txt
+  864  git fetch origin | tee -a worklog-damien.txt
+  865  git rebase main | tee -a worklog-damien.txt
+  866  git log --oneline --graph | tee -a worklog-damien.txt
+  867  git push origin feature/damien-idea | tee -a worklog-damien.txt
+  868  git switch main | tee -a worklog-damien.txt
+  869  git pull origin main | tee -a worklog-damien.txt
+  870  git merge feature/damien-idea | tee -a worklog-damien.txt
+  871  git push origin main | tee -a worklog-damien.txt
+  872  git switch main
+  873  git pull origin main
+  876  git switch main
+  877  git pull origin main
+  878  git log --oneline --graph --all | tee -a worklog-damien.txt
+  881  git config pull.rebase false
+  882  git pull origin main | tee -a worklog-damien.txt
+  883  git push origin main | tee -a worklog-damien.txt
+  885  git status
+  886  git log --oneline --graph --all
+  887  git status
+  889  git add worklog-damien.txt
+  890  git commit -m "docs: update worklog damien"
+  891  git push origin main
+  892  git status
+  896  history | grep git
+  898  echo "# Liste des commandes git lancees (history)" >> worklog-damien.txt
+  899  history | grep git >> worklog-damien.txt
+  900  git add worklog-damien.txt
+  901  git commit -m "docs: update worklog damien"
+  902  git push origin main
+  903  git status
+  905  git push origin main
+  906  git add worklog-damien.txt
+  907  git commit -m "docs: update worklog damien"
+  908  git push origin main
+  910  git pull origin main
+  912  history | grep git
+  913  git add worklog-damien.txt
+  914  git commit -m "docs: update worklog damien"
+  915  git push origin main
+  916  git status
+  918  git pull origin main
+  920  history | grep git
+  922  echo "# Liste des commandes git lancees (history)" >> worklog-damien.txt
+  923  history | grep git >> worklog-damien.txt
