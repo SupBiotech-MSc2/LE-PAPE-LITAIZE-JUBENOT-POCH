@@ -12,6 +12,7 @@ screening.
 - Synthetic sgRNA (target-specific)
 - Electroporation buffer
 - HEK293 cells, passage < 20
+- Positive control sgRNA
 
 ## Steps
 1. Design and order sgRNA targeting exon 2 of the gene of interest.
