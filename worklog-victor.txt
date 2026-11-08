@@ -1,0 +1,490 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+git : From https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+Au caract?re Ligne:1 : 1
++ git pull origin main 2>&1 | tee.exe -a worklog-victor.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (From https://gi...ZE-JUBENOT-POCH:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ * branch            main       -> FETCH_HEAD
+   b5a5fe7..4e67e9d  main       -> origin/main
+Updating b5a5fe7..4e67e9d
+Fast-forward
+ protocol.md | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[main 249256e] test: throwaway commit
+ 1 file changed, 1 insertion(+)
+249256e test: throwaway commit
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+Unstaged changes after reset:
+M	protocol.md
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+4e67e9d Dylan430122 feat: re-add team note from dylan
+d0d8024 Dylan430122 Revert "feat: add team note from dylan"
+b5a5fe7 damienp95 feat: add team note from poch
+6a2a5c5 Victor Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Victor Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 damienp95 merge: resolve team notes conflict
+0765df0 damienp95 merge: resolve team notes in protocol.md
+c2016ce Dylan430122 feat: add team note from dylan
+7b74f19 Victor    feat: add team note from Victor
+b850803 damienp95 feat: add team note from Damien
+8068903 Victor feat: add team note from Victor
+7789a17 Korantin LE PAPE feat : add team note from lepape
+3a74bea korantinlp-byte Initial commit
+Auto-merging protocol.md
+CONFLICT (content): Merge conflict in protocol.md
+git : error: could not revert 7b74f19...    feat: add team note from Victor
+Au caract?re Ligne:1 : 1
++ git revert 7b74f19 --no-edit 2>&1 | tee.exe -a worklog-victor.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: could no...ote from Victor:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config set advice.mergeConflict false"
+[main eb3b38e] Revert "   feat: add team note from Victor"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
+   4e67e9d..eb3b38e  main -> main
+[main 7a49046] feat: re-add team note from victor
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
+   eb3b38e..7a49046  main -> main
+commit 7a4904694452f91196fb4ccf567ca4077bb3c9e3
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sun Nov 8 12:17:14 2026 +0100
+
+    feat: re-add team note from victor
+
+commit eb3b38e3a1f85fe1c65cf13d7c9727bb2c2ce248
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sun Nov 8 12:12:40 2026 +0100
+
+    Revert "   feat: add team note from Victor"
+    
+    This reverts commit 7b74f191fbeeed6b3d3e0a5f86175396f2493e8d.
+
+commit 4e67e9dac5d0b578f69fb8c99cb97401f4c81441
+Author: Dylan430122 <dylanjubenot@outlook.fr>
+Date:   Sat Nov 7 18:58:55 2026 +0100
+
+    feat: re-add team note from dylan
+
+commit d0d80240dcfa0c262ff6549de8ec3cbbb4ca172b
+Author: Dylan430122 <dylanjubenot@outlook.fr>
+Date:   Sat Nov 7 18:55:53 2026 +0100
+
+    Revert "feat: add team note from dylan"
+    
+    This reverts commit c2016ce9bd30551e4eb7cf17b611fe8dc59c4d27.
+
+commit b5a5fe7c4c421f4c73eb3317fbeac952946a8df5
+Author: damienp95 <dampocg@gmail.com>
+Date:   Sat Oct 3 11:28:54 2026 +0200
+
+    feat: add team note from poch
+
+commit 6a2a5c570b0b7a27b9159c1234a67f719ba5423d
+Merge: 9d92772 4b65f02
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sat Oct 3 11:22:59 2026 +0200
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+
+commit 9d9277265a75d8ec51ac9554033032671a1e5b55
+Merge: 7b74f19 c2016ce
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sat Oct 3 11:18:25 2026 +0200
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+
+commit 4b65f02a01b6ae4b9b9d136a2cbc2725fef2e638
+Merge: 0765df0 c2016ce
+Author: damienp95 <dampocg@gmail.com>
+Date:   Sat Oct 3 11:13:26 2026 +0200
+
+    merge: resolve team notes conflict
+
+commit 0765df0af6eb929b3ab8c50b728d50b872137060
+Author: damienp95 <dampocg@gmail.com>
+Date:   Sat Oct 3 11:02:10 2026 +0200
+
+    merge: resolve team notes in protocol.md
+
+commit c2016ce9bd30551e4eb7cf17b611fe8dc59c4d27
+Author: Dylan430122 <dylanjubenot@outlook.fr>
+Date:   Sat Oct 3 10:38:34 2026 +0200
+
+    feat: add team note from dylan
+
+commit 7b74f191fbeeed6b3d3e0a5f86175396f2493e8d
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Thu Sep 24 12:38:17 2026 +0200
+
+       feat: add team note from Victor
+
+commit b850803c6cbf06cbce57ce408dbb77e240fb9241
+Author: damienp95 <dampocg@gmail.com>
+Date:   Thu Sep 24 12:27:16 2026 +0200
+
+    feat: add team note from Damien
+
+commit 80689037b03651a42cd8887cb96df7f60221b526
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Thu Sep 24 12:25:55 2026 +0200
+
+    feat: add team note from Victor
+
+commit 7789a175ba366894b3b8e6f19bba99dcf3823a4b
+Author: Korantin LE PAPE <korantinlp@gmail.com>
+Date:   Thu Sep 24 12:15:22 2026 +0200
+
+    feat : add team note from lepape
+
+commit 3a74beaa7e8186abcb8a9193a1b589846da7d566
+Author: korantinlp-byte <korantinlp@gmail.com>
+Date:   Thu Sep 24 11:45:06 2026 +0200
+
+    Initial commit
+7a49046 feat: re-add team note from victor
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+commit eb3b38e3a1f85fe1c65cf13d7c9727bb2c2ce248
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sun Nov 8 12:12:40 2026 +0100
+
+    Revert "   feat: add team note from Victor"
+    
+    This reverts commit 7b74f191fbeeed6b3d3e0a5f86175396f2493e8d.
+
+diff --git a/protocol.md b/protocol.md
+index aa1fc7b..d76dc14 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -24,6 +24,6 @@ screening.
+ ## Team Notes
+ <!-- add your own line below, one per teammate -->
+ -Korantin : This is my line.
+--Victor : this is my line
++Victor : This is my line
+ - Damien: Check annealing temperature for sgRNA primers.
+ - Dylan: Add a non-targeting sgRNA control in step 3.
+Switched to a new branch 'feature/victor-idea'
+* feature/victor-idea
+  main
+* feature/victor-idea
+  main
+* feature/victor-idea
+  main
+[feature/victor-idea 5447fbf] feat: add nuclease-free water to reagents
+ 1 file changed, 1 insertion(+)
+remote: 
+remote: Create a pull request for 'feature/victor-idea' on GitHub by visiting:        
+remote:      https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH/pull/new/feature/victor-idea        
+remote: 
+To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
+ * [new branch]      feature/victor-idea -> feature/victor-idea
+branch 'feature/victor-idea' set up to track 'origin/feature/victor-idea'.
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Switched to branch 'feature/victor-idea'
+Your branch is up to date with 'origin/feature/victor-idea'.
+[feature/victor-idea 328a66d] docs: add sterility note to overview
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+7a49046 feat: re-add team note from victor
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+328a66d docs: add sterility note to overview
+5447fbf feat: add nuclease-free water to reagents
+7a49046 feat: re-add team note from victor
+eb3b38e Revert "   feat: add team note from Victor"
+4e67e9d feat: re-add team note from dylan
+d0d8024 Revert "feat: add team note from dylan"
+b5a5fe7 feat: add team note from poch
+6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+4b65f02 merge: resolve team notes conflict
+0765df0 merge: resolve team notes in protocol.md
+c2016ce feat: add team note from dylan
+7b74f19    feat: add team note from Victor
+b850803 feat: add team note from Damien
+8068903 feat: add team note from Victor
+7789a17 feat : add team note from lepape
+3a74bea Initial commit
+commit 328a66d21f075e530cc326c52ffcc0e560567828
+Author: Victor <victor.litaize@supbiotech.fr>
+Date:   Sun Nov 8 13:02:35 2026 +0100
+
+    docs: add sterility note to overview
+
+diff --git a/protocol.md b/protocol.md
+index 103bf7f..12a4faf 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -5,7 +5,7 @@
+ ## Overview
+ Protocol for generating single-gene knockouts in HEK293 cells using
+ CRISPR-Cas9 ribonucleoprotein (RNP) delivery, for downstream phenotypic
+-screening.
++screening. Note: all steps are performed under sterile conditions.
+ 
+ ## Reagents
+ - Cas9 protein (NLS-tagged)
+Current branch feature/victor-idea is up to date.
+* 328a66d docs: add sterility note to overview
+* 5447fbf feat: add nuclease-free water to reagents
+* 7a49046 feat: re-add team note from victor
+* eb3b38e Revert "   feat: add team note from Victor"
+* 4e67e9d feat: re-add team note from dylan
+* d0d8024 Revert "feat: add team note from dylan"
+* b5a5fe7 feat: add team note from poch
+*   6a2a5c5 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\  
+| *   4b65f02 merge: resolve team notes conflict
+| |\  
+| * | 0765df0 merge: resolve team notes in protocol.md
+| * | b850803 feat: add team note from Damien
+* | |   9d92772 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\ \ \  
+| | |/  
+| |/|   
+| * | c2016ce feat: add team note from dylan
+| * | 7789a17 feat : add team note from lepape
+| |/  
+* | 7b74f19    feat: add team note from Victor
+* | 8068903 feat: add team note from Victor
+|/  
+* 3a74bea Initial commit
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Switched to a new branch 'feature/status-review'
+[feature/status-review 66bb819] chore: mark status as under review
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+ * branch            main       -> FETCH_HEAD
+   7a49046..baeea27  main       -> origin/main
+Updating 7a49046..baeea27
+Fast-forward
+ protocol.md | 1 +
+ 1 file changed, 1 insertion(+)
+Auto-merging protocol.md
+Merge made by the 'ort' strategy.
+ protocol.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+*   8610830 Merge branch 'feature/status-review'
+|\  
+| * 66bb819 chore: mark status as under review
+* | baeea27 docs: add detail to protocol
+* | 4b93d15 feat: add positive control reagent
+* | b4af24a Revert "test: add throwaway note from Damien"
+* | d6f4d17 test: add throwaway note from Damien
+|/  
+From https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+ * [new branch]      feature/damien-idea   -> origin/feature/damien-idea
+ * [new branch]      feature/dylan-idea    -> origin/feature/dylan-idea
+ * [new branch]      feature/korantin-idea -> origin/feature/korantin-idea
+baeea27 docs: add detail to protocol
+4b93d15 feat: add positive control reagent
+b4af24a Revert "test: add throwaway note from Damien"
+d6f4d17 test: add throwaway note from Damien
+HEAD is now at baeea27 docs: add detail to protocol
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+From https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+   baeea27..4518e52  main       -> origin/main
+4518e52 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+95f39fa chore : bump status to draft v2
+3a2e06b chore : bump status to draft v2
+From https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+ * branch            main       -> FETCH_HEAD
+Updating baeea27..4518e52
+Fast-forward
+ protocol.md          |  7 +++++--
+ worklog-korantin.txt | 18 ++++++++++++++++++
+ 2 files changed, 23 insertions(+), 2 deletions(-)
+ create mode 100644 worklog-korantin.txt
+Auto-merging protocol.md
+CONFLICT (content): Merge conflict in protocol.md
+Automatic merge failed; fix conflicts and then commit the result.
+[main 6680c9a] Merge branch 'feature/status-review'
+*   6680c9a Merge branch 'feature/status-review'
+|\  
+| * 66bb819 chore: mark status as under review
+* |   4518e52 Merge branch 'main' of https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+|\ \  
+| * | baeea27 docs: add detail to protocol
+| * | 4b93d15 feat: add positive control reagent
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
+   4518e52..6680c9a  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-victor.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+From https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Auto-merging protocol.md
+Merge made by the 'ort' strategy.
+ protocol.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+*   d60f7f5 Merge branch 'feature/victor-idea'
+|\  
+| * 328a66d docs: add sterility note to overview
+| * 5447fbf feat: add nuclease-free water to reagents
+* |   6680c9a Merge branch 'feature/status-review'
+|\ \  
+| * | 66bb819 chore: mark status as under review
+| |/  
+To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
+   6680c9a..d60f7f5  main -> main
