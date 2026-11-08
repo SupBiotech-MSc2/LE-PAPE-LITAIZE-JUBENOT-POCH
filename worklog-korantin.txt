@@ -16,3 +16,77 @@
  1940  git status
  1974  history | grep git
  1975  history | grep git >> worklog-korantin.txt
+ 1922  git status
+ 1923  git pull origin main
+ 1924  git diff protocol.md
+ 1925  git restore protocol.md 
+ 1926  git status
+ 1927  git pull origin main
+ 1928  git pull
+ 1929  git status
+ 1930  git restore protocol.md 
+ 1931  git add protocol.md 
+ 1932  git commit -m "test : throwaway commit"
+ 1933  git log --onlinz
+ 1934  git log --online
+ 1935  git log --oneline
+ 1936  git reset HEAD~1
+ 1937  git status
+ 1938  git restore protocol.md 
+ 1939  git log --oneline
+ 1940  git revert 7789a17
+ 1941  git push origin main
+ 1942  git log
+ 1943  git push
+ 1944  git pull
+ 1945  git revert --abort
+ 1946  git status
+ 1947  git pull origin main 
+ 1948  git pull
+ 1949  git log
+ 1950  git log --oneline
+ 1951  git show 7789a17
+ 1952  git checkout -b feature/korantin-idea
+ 1953  git branch
+ 1954  git add
+ 1955  git add protocol.md 
+ 1956  git commit -m "add semantic message for my branch"
+ 1957  git push origin feature/korantin-idea
+ 1958  git switch main
+ 1959  git status
+ 1960  git switch feature/korantin-idea
+ 1961  git add worklog-korantin.txt 
+ 1962  git commit -m "add my worklog"
+ 1963  git push origin feature/korantin-idea
+ 1964  git add protocol.md 
+ 1965  git commit -m "test for merge vs rebase"
+ 1966  git log --oneline main
+ 1967  git log --oneline 
+ 1968  git rebase main
+ 1969  git log --oneline --graph
+ 1970  git push origin feature/korantin-idea
+ 1971  git status
+ 1973  git checkout -b feature/status-v2
+ 1974  git add protocol.md 
+ 1975  git commit -m "chore : bump status to draft v2"
+ 1976  git checkout main
+ 1977  git merge feature/status-v2 
+ 1978  git push origin main
+ 1979  git pull 
+ 1980  git config --global
+ 1981  git pull --no-rebase origin main
+ 1982  git add protocol.md 
+ 1983  git commit -m "chore : bump status to draft v2"
+ 1984  git checkout main
+ 1985  git merge feature/status-v2 
+ 1986  git push origin main
+ 1987  git pull
+ 1988  git pull --no-rebase origin main
+ 1989  git push origin main
+ 1990  git switch main
+ 1991  git pull origin main 
+ 1992  git log --oneline 
+ 1993  git log --oneline --graph
+ 1994  git statut
+ 1995  git status
+ 1996  history | grep git >> worklog-korantin.txt

@@ -5,10 +5,11 @@
 ## Overview
 Protocol for generating single-gene knockouts in HEK293 cells using
 CRISPR-Cas9 ribonucleoprotein (RNP) delivery, for downstream phenotypic
-screening.
+screening. Note: all steps are performed under sterile conditions.
 
 ## Reagents
 - Cas9 protein (NLS-tagged)
+- Nuclease-free water
 - Synthetic sgRNA (target-specific)
 - Electroporation buffer
 - HEK293 cells, passage < 20
