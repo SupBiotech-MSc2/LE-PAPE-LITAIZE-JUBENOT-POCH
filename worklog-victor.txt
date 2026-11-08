@@ -488,3 +488,17 @@ Merge made by the 'ort' strategy.
 | |/  
 To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
    6680c9a..d60f7f5  main -> main
+[main 961fc88] docs: add worklog victor
+ 1 file changed, 490 insertions(+)
+ create mode 100644 worklog-victor.txt
+To https://github.com/SupBiotech-MSc2/LE-PAPE-LITAIZE-JUBENOT-POCH.git
+   d60f7f5..961fc88  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   worklog-victor.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
