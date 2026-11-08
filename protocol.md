@@ -25,5 +25,5 @@ screening.
 <!-- add your own line below, one per teammate -->
 -Korantin : This is my line.
 - Victor : This is my line
+- Damien: Check annealing temperature for sgRNA primers.
 - Dylan: Add a non-targeting sgRNA control in step 3.
-- Damien: test line for revert exercise.
